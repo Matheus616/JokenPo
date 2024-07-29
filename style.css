@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://picsum.photos/1600/900");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    color: black;
+}
+
+.container{
+    padding: 20px;
+    background-position-x: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+
+}
+
+button{
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#pedra{
+    background-color: rgb(13, 9, 240);
+}
+
+#papel{
+    background-color: blueviolet;
+}
+
+#tesoura{
+    background-color: red;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.your-score span {
+    color: greenyellow;
+}
+
+.machine-score span{
+    color: rgb(92, 5, 5);
+}
